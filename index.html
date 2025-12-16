@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Christmas Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Click Mo to </h2>
+
+<div class="card" id="card">
+  <div class="card-inner">
+
+    <div class="card-front">
+      🎄
+    </div>
+
+    <div class="card-back">
+
+      <!-- Fireworks Video -->
+      <video class="fireworks-bg" muted playsinline preload="auto">
+        <source src="fireworks.mp4" type="video/mp4">
+      </video>
+
+      <!-- Foreground Content -->
+      <div class="content">
+        <img src="santa.png" class="santa">
+
+        <div class="gcash-box">
+          <img src="gcash.png">
+        </div>
+
+        <audio id="christmas-audio">
+          <source src="merry-christmas.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
